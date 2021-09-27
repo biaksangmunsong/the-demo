@@ -75,7 +75,7 @@ const LandingPage = () => {
                 </div>
             </section>
             <div className="last-section">
-                <h3>Let&spos;s get started, shall we!!</h3>
+                <h3>Let&apos;s get started, shall we!!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus id ad modi fugiat tempore voluptatem delectus itaque quibusdam voluptates odit.</p>
                 <div className="call-to-actions">
                     <a href=""><span>Sign in / Register <RightArrow/></span></a>
