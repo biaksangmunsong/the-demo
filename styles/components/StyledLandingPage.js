@@ -126,13 +126,17 @@ const StyledLandingPage = styled.div`
             padding: 6rem 0;
         }
 
+        @media screen and (max-width: 850px){
+            padding: 6rem 0 3rem 0;
+        }
+
         @media screen and (max-width: 600px){
-            padding: 5rem 0;
+            padding: 5rem 0 3rem 0;
             margin-bottom: 15px;
         }
 
         @media screen and (max-width: 400px){
-            padding: 4rem 0;
+            padding: 4rem 0 2rem 0;
         }
         
         .words {
@@ -328,15 +332,23 @@ const StyledLandingPage = styled.div`
                 left: -40%;
                 transform: none;
             }
+
+            @media screen and (max-width: 850px){
+                margin: 2rem auto 0 auto;
+            }
             
             @media screen and (max-width: 600px){
                 width: 230%;
                 left: -65%;
             }
-
+            
             @media screen and (max-width: 450px){
                 width: 260%;
                 left: -80%;
+            }
+
+            @media screen and (max-width: 400px){
+                margin: 1rem auto 0 auto;
             }
             
             img {
